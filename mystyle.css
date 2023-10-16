@@ -1,7 +1,36 @@
 /* mystyle.css */
 
+
+/*						background-color
+
+background-image
+
+background-repeat
+
+background-attachment
+
+background-position*/
+
+
+/*						text-color
+
+text-align
+
+text-decoration
+
+text-transformation 
+*/
+
+
+/*						Font
+font-family
+
+font-style
+
+font-size
+ */
 h4 {
-    color: rgb(128, 0, 32);;
+    color: rgb(128, 0, 32);
     font-size: 20pt;
 }
 
@@ -9,6 +38,6 @@ h4 {
 
 body {
 	
-	background-color: rgb(241, 241, 241)
+	background-color: rgb(241, 241, 241);
 	
 }
