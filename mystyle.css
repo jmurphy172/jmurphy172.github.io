@@ -119,3 +119,10 @@ th {
            height: 10px;
 		   
            }
+		   
+		   
+nav {
+	
+    margin-top: 20px; /* Adjust the margin-top value as needed */
+    background-color: green;
+}
