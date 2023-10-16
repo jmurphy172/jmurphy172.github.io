@@ -1,6 +1,22 @@
 /* mystyle.css */
 
 
+/* suppose we want to have h1, h2, and h3 headers in blue, but h4, h5, and h6 headers in green? We do not have to write a separate rule for each header tag, we can write one rule that looks like this:
+
+h1,h2,h3 {
+    color: blue;
+}
+
+h4,h5,h6 {
+    color: green;
+}
+You can read the commas between the tags as “or.” So the first of the above rules read as If the tag is h1 or h2 or h3 then change the color to blue.
+
+In the example below, add a rule so that the h2 and the paragraph have the color red. 
+
+*/
+
+
 /*						background-color
 
 background-image
@@ -30,7 +46,7 @@ font-style
 font-size
  */
 h4 {
-    color: rgb(128, 0, 32);
+    color: rgb(170, 0, 32);
     font-size: 20pt;
 }
 
@@ -41,3 +57,10 @@ body {
 	background-color: rgb(241, 241, 241);
 	
 }
+
+#abc456 {
+         font-size: 16pt;
+		 colour: RebeccaPurple
+      }
+
+/* The hashtag # above is very important to this rule as it tells the css matcher that what comes after that hashtag must match the id attribute of some element.  */
