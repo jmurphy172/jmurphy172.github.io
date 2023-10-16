@@ -70,3 +70,23 @@ body {
       }	 
 
 /* The hashtag # above is very important to this rule as it tells the css matcher that what comes after that hashtag must match the id attribute of some element.  */
+
+
+/* 4.3.3. Using the class attribute in a rule
+Sometimes you want to match some elements that are the same tag but not others. One example of this is when you want to have a “zebra striped” table, where every other line has a slightly different background color then you are going to want to use a class attribute. Classes and CSS may be the single most useful combination for styling your web pages.
+
+Unlike the id attribute, many different tags can have the same value for a class. Some examples:
+
+You have paragraphs or headings and you want some normal, some are “warnings”, some are “errors”, and some are “cautions”. Or perhaps you have a list of things, some things one the list are hight priority, some are low, and some are medium. By using a class you can apply a consistent style to all of the things that belong to that class (have the same value for their class attribute.)
+
+To select any element that matches a particular class you use the . before the name of the class. So .high will match any tags that have the attribute class=high.
+
+Returning to our HTML table example we have some rows that are “odd” and some that are “even”. Let’s make a short table and style the odd and even rows differently. */
+
+.odd {
+         background-color: #9999ee;
+      }
+	  
+.even {
+	 background-color: pink;
+  }
