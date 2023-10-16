@@ -68,6 +68,12 @@ body {
          font-size: 16pt;
 		 color: Chartreuse
       }	 
+	  
+	  
+#art123 {
+         font-size: 16pt;
+		 color: rgb(128, 0, 128)
+      }	 
 
 /* The hashtag # above is very important to this rule as it tells the css matcher that what comes after that hashtag must match the id attribute of some element.  */
 
