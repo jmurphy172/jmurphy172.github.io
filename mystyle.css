@@ -127,3 +127,9 @@ nav {
     margin-top: 20px; /* Adjust the margin-top value as needed */
     background-color: green;
 }
+
+
+#colorPicker {
+    float: right;
+}
+
