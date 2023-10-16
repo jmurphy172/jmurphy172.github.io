@@ -48,6 +48,7 @@ font-size
 h4 {
     color: rgb(170, 0, 32);
     font-size: 20pt;
+	text-align: center;
 }
 
 /* Add more CSS rules here as needed */
