@@ -104,6 +104,7 @@ Returning to our HTML table example we have some rows that are “odd” and som
   
   
 th {
+	color: white;
 	background-color: rgb(128,0,0); /* Dark Maroon */
 	font-size: 14pt;
 }
@@ -113,8 +114,8 @@ th {
            width: 250px;
            background-color: green;
            padding: 250px;
-           border: 10px solid blue;
-           margin: 25px;
-           height: 100px;
+           border: 20px solid blue;
+           margin: 10px;
+           height: 10px;
 		   
            }
