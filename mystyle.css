@@ -96,3 +96,9 @@ Returning to our HTML table example we have some rows that are “odd” and som
 .even {
 	 background-color: pink;
   }
+  
+  
+th {
+	color: rgb (128,0,0); /* Dark Maroon */
+	font-size: 16pt;
+}
