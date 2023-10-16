@@ -99,6 +99,6 @@ Returning to our HTML table example we have some rows that are “odd” and som
   
   
 th {
-	color: rgb (128,0,0); /* Dark Maroon */
-	font-size: 16pt;
+	background-color: rgb (128,0,0); /* Dark Maroon */
+	font-size: 14pt;
 }
