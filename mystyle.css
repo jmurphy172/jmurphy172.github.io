@@ -74,6 +74,11 @@ body {
          font-size: 16pt;
 		 color: rgb(128, 0, 128)
       }	 
+	  
+#art123 {
+ font-size: 16pt;
+ color: rgb(152,251,152)
+}	 
 
 /* The hashtag # above is very important to this rule as it tells the css matcher that what comes after that hashtag must match the id attribute of some element.  */
 
@@ -102,3 +107,13 @@ th {
 	background-color: rgb (128,0,0); /* Dark Maroon */
 	font-size: 14pt;
 }
+
+
+ section {
+           width: 250px;
+           background-color: green;
+           padding: 25px;
+           border: 10px solid blue;
+           margin: 25px;
+           height: 100px;
+           }
