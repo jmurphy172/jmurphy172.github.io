@@ -1,17 +1,49 @@
 <html>
 
+
+
 <head>
+ <title>Page Layout</title>
+ <style>
+ header {
+	 position: fixed;
+	 background-color: #bbbbbb;
+	 top: 0px;
+	 left: 0px;
+	 width: 100%;
+	 height: 20px;
+ }
+ nav {
+	 margin-top: 20px;
+	 margin-bottom: 0px;
+	 background-color: green;
+ }
+ nav li {
+	display: inline;
+ }
+ section {
+	 float: left;
+	 width: 20%;
+	 height: 500px;
+	 background-color: blue;
+	 color: white;
+ }
+ aside {
+	 float: left;
+	 width: 80%;
+	 height: 500px;
+	 background-color: red;
+ }
+ footer {
+	 clear: both;
+	 background-color: yellow;
+ }
+ body {
+	 background-color: black;
+	 margin: 0px;
+ }
+ </style>
 
-<!--The link to the stylesheet should be contained
-	within the head tags--> 
-	
-<link rel="stylesheet" href="mystyle.css" type="text/css">
-
-<title>
-
-Art
-
-</title>
 
 </head>
 
@@ -19,28 +51,36 @@ Art
 
 <a href="index.html"> home</a> <a href="literature.html"> literature</a> <a href="science.html"> 
 
-science</a> <a href="media.html"> media</a> <a href="blocking.html"> blocking</a>
+science</a> <a href="media.html"> media</a> <a href="blocking.html"> blocking</a> <a href="art.html"> art</a>
 
 
-<h4>It's a hole</h4>
+  <header>
+             A header that stays stuck to the top.
+         </header>
+         <nav>
+             <ul>
+             <li>About</li>
+             <li>Papers</li>
+             <li>Donate</li>
+             </ul>
+         </nav>
+         <section>
+             This would be a good place for a table of contents
+         </section>
+         <aside>
+             This is the main content area
+             <img src="https://runestone.academy/ns/books/published/webfundamentals/_images/img_sem_elements.gif" />
+         </aside>
+         <footer>
+             Copyright Area, Contact Us.
+         </footer>
+     </body>
 
-<p> This is the art page </p>
-
-<p><b>This text is bold</b></p>
-<p><strong>This text is strong</strong></p>
-<p><i>This text is italic</i></p>
-<p><em>This text is emphasized</em></p>
-<p><code>This is computer output</code></p>
-<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
-<p>This <br /> forces <br /> a <br /> line break </p>
 
 
 
 
 
-
-
-</body>
 
 
 
