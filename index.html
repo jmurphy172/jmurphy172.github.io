@@ -29,6 +29,19 @@ Home
 <a href="art.html"> art</a> <a href="media.html"> media</a> <a href="blocking.html"> blocking</a> <a href="page_layout.html"> page layout</a>
 
 
+<div id="colorPicker">
+    <label for="redi">Red:</label>
+    <input type="text" id="redi" min="0" value="255" /> <br>
+    <label for="greeni">Green:</label>
+    <input type="text" id="greeni"  value="255" /><br>
+    <label for="bluei">Blue:</label>
+    <input type="text" id="bluei" value="255" />
+    <br>
+    <button onclick="changeColor();">Change Color</button>
+</div>
+
+
+
 <h4>It's a hole</h4>
 
 <button onclick="changeThisPageFunc();">Click Me!</button>
@@ -47,12 +60,14 @@ Home
 <p> Hello and welcome to it's a hole! </p>
 
 
-<input type="checkbox" name="group1" value="Tooth">Tooth<br />
-<input type="checkbox" name="group1" value="Teeth">Teeth<br />
+<input type="checkbox" name="group1" value="Tooth">Tooth
+<input type="radio" name="group1" value="Tooth">Tooth<br />
+<input type="checkbox" name="group1" value="Teeth">Teeth
+<input type="radio" name="group1" value="Teeth">Teeth<br />
 <input type="checkbox" name="group1" value="Tooths">Tooths
 
-<input type="radio" name="group1" value="Tooth">Tooth
-<input type="radio" name="group1" value="Teeth">Teeth
+
+
 <input type="radio" name="group1" value="Tooths">Tooths<br /><br />
 
 <input type="color">
